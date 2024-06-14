@@ -1,0 +1,53 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    About
+{% endblock %}
+
+{% block main %}
+
+    <div class='main'>
+        <div>
+            <div class='card-ab'>
+                <h1> About Churn Predictor </h1>
+                <p>
+                    The web app was designed to help marketing and
+                    retention teams within financial institutions accurately
+                    and efficiently identify members who may be likely to leave
+                    or seek out other service providers.<br>
+                    The dataset on which the model was trained, is hosted on kaggle
+                    and is a synthetic data of over 10 thousand records.<br>
+                </p>
+            </div>
+            <div class='card-ab'>
+                <h1> Using Churn Predictor </h1>
+                <p>
+                    There are two methods to using the web app.<br>
+                    The first method is uploading your very own csv, formatted with the columns as shown on the form.
+                    Once uploaded the predictions will be made in the background and results automatically downloaded
+                    to the end users PC. The csv will be updated with churn probability as an added column.
+                </p>
+                <p>
+                    The other is to enter a single customer data. This is a quick and easy way to instantly check an individual customer
+                    by filling out the form. The results being displayed as a flash message.
+                </p>
+            </div>
+            <div class='card-ab'>
+                <h3>
+                    How to use (uploading csv)
+                </h3>
+                <p>
+                    Select your csv file then click download. It's that easy!
+                </p>
+            </div>
+            <div class='card-ab'>
+                <h3>
+                    How to use (Individual data)
+                </h3>
+                <p>
+                    Fill out the form. It's that easy!
+                </p>
+            </div>
+        </div>
+    </div>
+{% endblock %}
