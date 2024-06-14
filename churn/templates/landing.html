@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Landing
+{% endblock %}
+
+{% block main %}
+    <div class="landing-title">
+        <h1>Bank Customer Churn Probability WebApp</h1>
+        <h3>An easy to use web app that allows retention endusers to make<br>effective decisions based on churn probability.</h3>
+        <div class="inline-buttons">
+            <form action="/register" method="get">
+                <button class="button-landing btn btn-primary" type="submit">Get Started</button>
+            </form>
+            <form action="/login" method="get">
+                <button class="button-landing btn btn-primary" type="submit">Log In</button>
+            </form>
+        </div>
+
+    </div>
+
+
+{% endblock %}
