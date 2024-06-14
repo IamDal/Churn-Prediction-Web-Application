@@ -1,0 +1,261 @@
+.gruppo-regular {
+    font-family: "Gruppo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.landing-h1 {
+    font-size: 20;
+}
+
+main {
+    position: relative;
+    top: 80px;
+}
+
+.main {
+    bottom: 100px;
+    background-color: #f2e9d0;
+    padding: 5%;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+nav {
+    font-family: "Gruppo", sans-serif;
+    font-weight: bold;
+    background-color: #545454;
+}
+
+nav li {
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+    text-align: right;
+}
+
+li:hover {
+    color: brown;
+}
+
+ul {
+    margin: 16px;
+    margin-bottom: 1rem;
+}
+
+nav ul {
+    display: inline-block;
+}
+
+nav div {
+    display: inline-block;
+}
+
+.landing-title {
+    font-family: "Gruppo", sans-serif;
+    font-weight: bold;
+    min-height: 900px;
+    padding: 100px;
+    background-image: url("https://content.codecademy.com/projects/broadway/bg.jpg");
+    background-color: rgba(255, 255, 255, 0.4) !important;
+    background-blend-mode: lighten;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.login-register {
+    font-family: "Gruppo", sans-serif;
+    font-weight: bold;
+    min-height: 900px;
+    padding: 50px;
+    background-image: url("https://content.codecademy.com/projects/broadway/bg.jpg");
+    background-color: rgba(255, 255, 255, 0.4) !important;
+    background-blend-mode: lighten;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.landing-title h1,
+h3 {
+    font-weight: 500;
+    margin: 40px 20px 20px;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-wrapper {
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+.button-landing {
+    width: 200px;
+    height: 60px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #545454;
+    padding: 20px;
+}
+
+button {
+    margin: 20px;
+}
+
+.input-bar {
+    padding: 20px;
+}
+
+div form {
+    display: inline-block;
+    width: 100%;
+    font-size: 15px;
+}
+
+.inline-buttons {
+    display: flex;
+    width: 500px;
+}
+
+form div {
+    padding: 10px;
+    width: 100%;
+}
+
+img,
+svg {
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-div {
+    padding: 20px;
+    margin: 20px;
+}
+
+.input-bar {
+    width: 80%;
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 40px;
+    background: #e3e3e3;
+}
+
+label {
+    margin-bottom: 2%;
+    font-size: 20px;
+}
+
+.button {
+    width: 210px;
+    height: 38px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #545454;
+    border-color: #545454;
+}
+
+.container {
+    text-align: center;
+}
+
+.card {
+    margin-left: 35%;
+    margin-right: 35%;
+    background: rgba(255, 255, 255, 0.4) !important;
+}
+
+.card-ab {
+    font-family: "Gruppo", sans-serif;
+    font-size: 18px;
+    padding: 20px;
+    margin: 80px;
+    background: rgba(255, 255, 255, 0.4) !important;
+}
+
+.card_ab h3 {
+    margin: 20px;
+}
+
+.card_upload {
+    padding: 20px;
+    margin-top: 20px;
+    font-family: "Gruppo", sans-serif;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+}
+
+.card_upload h3 {
+    margin: 20px;
+}
+
+.flashes .error {
+    color: red;
+}
+
+.flashes .success {
+    color: green;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: #0a58ca !important;
+}
+
+
+.nav-btnz {
+    border: solid 1px white;
+    padding: 5px;
+    text-align: center;
+    display: block;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #787675;
+    border-color: #787675;
+}
+
+.btn-primary:active,
+.show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #545454;
+    border-color: #545454;
+    font-weight: bold;
+}
