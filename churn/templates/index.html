@@ -1,0 +1,106 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block main %}
+    <div class='main'>
+        <div class='card_upload'>
+            <h3>Upload your own csv</h3>
+            <form method="POST" enctype="multipart/form-data">
+                <div>
+                    <input type="file" style="margin:2%" name="file" accept=".csv">
+                </div>
+                <div>
+                    <input type="submit" style="margin:2%" value="Process Data">
+                    <input type="submit" style="margin:2%" value="delete" name="delete">
+                </div>
+            </form>
+        </div>
+        <div class='card_upload'>
+            <h3>Enter Individual Customer</h3>
+            <form method="POST">
+                <div>
+                    <label for="CustomerId">CustomerId</label><br>
+                    <input class='input-bar' type="text" id="CustomerId" name="CustomerId" placeholder="e.g. 1234567">
+                </div>
+
+                <div>
+                    <label for="Surname">Surname</label><br>
+                    <input class='input-bar' type="text" id="Surname" name="Surname" placeholder="e.g. Burts">
+                </div>
+
+                <div>
+                    <label for="Gender">Gender</label><br>
+                    <input type="radio" id="Gender" name="Gender" value="Male">
+                    <label for="Gender">Male</label><br>
+                    <input type="radio" id="Gender" name="Gender" value="Female">
+                    <label for="Gender">Female</label>
+                </div>
+
+                <div>
+                    <label for="Age">Age</label><br>
+                    <input class='input-bar' type="text" id="Age" name="Age" placeholder="e.g. 34">
+                </div>
+
+                <div>
+                    <label for="Geography">Geography</label><br>
+                    <input type="radio" id="Geography" name="Geography" value="France">
+                    <label for="Geography">France</label><br>
+                    <input type="radio" id="Geography" name="Geography" value="Germany">
+                    <label for="Geography">Germany</label><br>
+                    <input type="radio" id="Geography" name="Geography" value="Spain">
+                    <label for="Geography">Spain</label><br>
+                </div>
+
+                <div>
+                    <label for="CreditScore">CreditScore</label><br>
+                    <input class='input-bar' type="text" id="CreditScore" name="CreditScore" placeholder="e.g. 600">
+                </div>
+
+                <div>
+                    <label for="Tenure">Tenure (years)</label><br>
+                    <input class='input-bar' type="text" id="Tenure" name="Tenure" placeholder="e.g. 10">
+                </div>
+
+                <div>
+                    <label for="Balance">Balance</label><br>
+                    <input class='input-bar' type="text" id="Balance" name="Balance" placeholder="e.g. 50000">
+                </div>
+
+                <div>
+                    <label for="EstimatedSalary">Estimated Salary</label><br>
+                    <input class='input-bar' type="text" id="EstimatedSalary" name="EstimatedSalary" placeholder="e.g. 50000" max=100000000>
+                </div>
+
+                <div>
+                    <label for="NumOfProducts">Number Of Products</label><br>
+                    <input class='input-bar' type="text" id="NumOfProducts" name="NumOfProducts" placeholder="e.g. 4">
+                </div>
+
+                <div>
+                    <label for="HasCrCard">Credit Card Owner?</label><br>
+                    <input type="radio" id="HasCrCard" name="HasCrCard" value=1>
+                    <label for="HasCrCard">Yes</label><br>
+                    <input type="radio" id="HasCrCard" name="HasCrCard" value=0>
+                    <label for="HasCrCard">No</label><br>
+                </div>
+
+                <div>
+                    <label for="IsActiveMember">Is Active Member?</label><br>
+                    <input type="radio" id="HasCrCard" name="IsActiveMember" value=1>
+                    <label for="IsActiveMember">Yes</label><br>
+                    <input type="radio" id="IsActiveMember" name="IsActiveMember" value=0>
+                    <label for="IsActiveMember">No</label><br>
+                </div>
+
+                <div>
+                    <input type="submit" style="margin:2%">
+                    <input type="submit" style="margin:2%" value="delete" name="delete">
+                </div>
+            </form>
+        </div>
+    </div>
+
+{% endblock %}
