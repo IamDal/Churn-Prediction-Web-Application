@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Registration
+{% endblock %}
+
+{% block main %}
+    <div class="login-register">
+        <div class='card'>
+            <img src="/static/logomark.png" height='300px' width='300px'>
+
+            <h2 style='text-align:center'>Sign Up</h2>
+            <form action="/register" method="post">
+                <div class="mb-3">
+                    <input autocomplete="off" autofocus class="form-control mx-auto w-auto" id="username" name="username" placeholder="Username" type="text">
+                </div>
+                <div>
+                    <input class="form-control mx-auto w-auto" id="password" name="password" placeholder="Password (min. 8 characters)" type="password">
+                </div>
+                <div>
+                    <input class="form-control mx-auto w-auto" id="confirmation" name="confirmation" placeholder="Confirm Password" type="password">
+                </div>
+                <div class='container'>
+                    <button class="mx-auto button btn btn-primary" type="submit">Register</button>
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+
+{% endblock %}
