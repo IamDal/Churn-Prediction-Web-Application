@@ -4,33 +4,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Paytone+One&family=Play:wght@400;700&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 </head>
-<style>
-    div.body {
-        width: 100%;
-        color: white;
-        margin: 0;
-        font-family: "Reddit Sans", sans-serif;
-    }
-    h2 {
-        font-family: "Play", sans-serif;
-        font-size: 30px;
-    }
-    h3 {
-        font-size: 20px;
-    }
-    span {
-        font-style: italic;
-        color: aquamarine;
-        font-weight: 200;
-        word-spacing: 10px;
-    }
-
-</style>
 
 <div class="body">
 <div style="display:flex;">
     <div>
-        <img src="./static/logomark.png" height="100px" width="100px" alt="Logo">
+        <img src="./churn/static/logomark.png" height="100px" width="100px" alt="Logo">
     </div>
     <h1> Machine Learning Web Application - Churn Prediction</h1>
 </div>
@@ -39,7 +17,7 @@ created by: Dalton R. Burton<br>
 
 <h2> What is a churn predictor?</h2>
 
-<img src="./static/readme_images/journey.jpg" alt="Customer Churn Diagram"><br>
+<img src="./churn/static/readme_images/journey.jpg" alt="Customer Churn Diagram"><br>
 
 Churn Predictor is a web application that can accurately process a dataset of customers and output the probability of a customer exiting. It's main goal is to assist those whose duty it is to ensure customer retention to identify these members and carry out thorough investigation and implement strategies and solutions to prevent churn.
 
@@ -131,19 +109,19 @@ The <b>README.md</b> file contains important information about web application, 
     </div>
     <div>
         <h3>CSV upload</h3>
-        <img src="./static/readme_images/Dataset.png">
+        <img src="./churn/static/readme_images/Dataset.png">
         <h3 style="text-align:right;">Manual Customer Entry</h3>
-        <img src="./static/readme_images/Individual data.png">
+        <img src="./churn/static/readme_images/Individual data.png">
     </div>
 </div>
 <h2>Screenshots</h2>
     <h3>Landing Page</h3>
-    <img src="./static/readme_images/landing.png">
+    <img src="./churn/static/readme_images/landing.png">
     <h3 style="text-align:right;">Registration Page</h3>
-    <img src="./static/readme_images/register.png">
+    <img src="./churn/static/readme_images/register.png">
     <h3>Login Page</h3>
-    <img src="./static/readme_images/Login.png">
+    <img src="./churn/static/readme_images/Login.png">
     <h3 style="text-align:right;">About Page</h3>
-    <img src="./static/readme_images/about.png">
+    <img src="./churn/static/readme_images/about.png">
 </div>
 
