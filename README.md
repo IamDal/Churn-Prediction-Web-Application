@@ -38,6 +38,24 @@ The model is built on classification algorithms such as XGBoost, LightGBM and Ca
 ![sqlite](https://img.shields.io/badge/SQLite-white?style=for-the-badge&logo=sqlite&logoColor=blue)
 
 
+<h2>Installation</h2>
+
+1. Make a clone of this repository:
+
+```
+https://github.com/IamDal/Churn-Prediction-Web-Application.git
+```
+
+2. You can download files locally or run on a cloud codespace.
+
+## How to use
+1. Once files are ready, navigate to the project folder at '/churn'
+2. execute the following command in the terminal:
+
+```
+    flask app.py
+```
+
 <h2>Project Files</h2>
 
 <h3>Main file - <span>app.py</span></h3>
