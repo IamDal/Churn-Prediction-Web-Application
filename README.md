@@ -48,12 +48,22 @@ https://github.com/IamDal/Churn-Prediction-Web-Application.git
 
 2. You can download files locally or run on a cloud codespace.
 
+3. Navigate to project folder -> '/churn' and install and activate a virtual environment
+```
+python3 -m venv venv
+```
+
+4. Install packages fromm requirements.txt file
+```
+pip install -r requirements.txt
+```
+
 ## How to use
 1. Once files are ready, navigate to the project folder at '/churn'
 2. execute the following command in the terminal:
 
 ```
-    flask app.py
+flask app.py
 ```
 
 <h2>Project Files</h2>
